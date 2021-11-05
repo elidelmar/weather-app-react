@@ -1,10 +1,12 @@
 import React from "react";
 import "./styles.css";
+import Weather from "./Weather";
 import Search from "./Search";
 
 export default function App() {
   return (
     <div className="App">
+      <div className="container">
       <h1>
         {" "}
         Weather Search Engine
@@ -19,8 +21,8 @@ export default function App() {
         target="_blank"
         rel="noreferrer"
       >{" "}Open-Source Code</a>
-        &nbsp; by Elisabeth Marquez
-    </div>
-    </div>
+        &nbsp; by Elisabeth Marquez</div>
+  </div>
+  </div>
   );
 }

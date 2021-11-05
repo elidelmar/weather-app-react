@@ -41,8 +41,11 @@ export default function Search() {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <input type="search" placeholder="Enter a city" onChange={getCity} />
-        <input type="submit" value="Search" />
+        <div className="input-group">
+  <input type="search" class="form-control rounded" placeholder="Enter a city" aria-label="Search"
+  aria-describedby="search-addon" onChange={getCity} />
+  <button type="button" class="btn btn-outline-dark">search</button>
+</div>
       </form>
       {weatherReport}
     </div>
