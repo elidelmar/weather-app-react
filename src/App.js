@@ -13,6 +13,14 @@ export default function App() {
         </span>
       </h1>
       <Search />
+      <div className="footer">
+      <a
+        href="https://github.com/elidelmar/weather-app-react"
+        target="_blank"
+        rel="noreferrer"
+      >{" "}Open-Source Code</a>
+        &nbsp; by Elisabeth Marquez
+    </div>
     </div>
   );
 }
