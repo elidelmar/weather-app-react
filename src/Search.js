@@ -44,7 +44,8 @@ export default function Search() {
         <div className="input-group">
   <input type="search" class="form-control rounded" placeholder="Enter a city" aria-label="Search"
   aria-describedby="search-addon" onChange={getCity} />
-  <button type="button" class="btn btn-outline-dark">search</button>
+  <button type="button" class="btn btn-outline-light">search</button>
+  <button type="button" class="btn btn-outline-light">current</button>
 </div>
       </form>
       {weatherReport}
